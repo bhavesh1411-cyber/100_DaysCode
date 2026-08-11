@@ -20,8 +20,8 @@ float main()
     float r, area, circumference;
     printf("Enter the radius of the circle: %f", r);
     scanf("%f", &r);
-    area = 3.14 * r *r ;
-    circumference = 2*3.14 * r ;
+    area = 3.14 * r * r;
+    circumference = 2 * 3.14 * r;
     printf("The area of the Circle is %.2f \n", area);
     printf("The circumference of the Circle is %.2f \n", circumference);
     return 0;
