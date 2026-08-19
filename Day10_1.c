@@ -16,7 +16,6 @@ Input 3:
 2 3 4
 Output 3:
 Scalene
-
 */
 
 #include <stdio.h>
@@ -52,4 +51,5 @@ int main()
     }
 
     return 0;
+
 }
