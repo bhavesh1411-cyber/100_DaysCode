@@ -18,6 +18,7 @@ Output 3:
 Scalene
 
 */
+
 #include <stdio.h>
 
 int main()
