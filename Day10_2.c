@@ -47,5 +47,6 @@ int main()
             printf("Sunday\n"); 
                 break;
     }
+    
     return 0;
 }
