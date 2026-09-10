@@ -20,18 +20,29 @@ Output 2:
 
 #include <stdio.h>
 
-int main() {
-    int a[5] = {1, 2, 3, 4, 5};
-    int temp;
+int main()
+{
+    int i, n;
+    int arr[5] = {12, 56, 34, 26, 86};
+    int f = 0;
 
-    for(int i = 0; i < 2; i++) {
-        temp = a[i];
-        a[i] = a[4-i];
-        a[4-i] = temp;
+    printf("Enter the Element: ");
+    scanf("%d", &n);
+
+    for (i = 0; i < 5; i++)
+    {
+        if (arr[i] == n)
+        {
+            printf("Element is found at index %d\n", i);
+            f = 1;
+            break;
+        }
     }
 
-    for(int i = 0; i < 5; i++)
-        printf("%d ", a[i]);
+    if (f == 0)
+    {
+        printf("Element is not matched\n");
+    }
 
     return 0;
 }
